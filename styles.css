@@ -1,0 +1,41 @@
+#parent-container {
+    display: flex;
+    flex-wrap: wrap;
+    /*align-items: flex-end;*/
+    align-content: flex-start;
+    height: 200px;
+    background-color: blueviolet; 
+}
+
+.child{
+    height: 25%;
+    width: 25%;
+    border: 1px solid black;
+}
+
+#childOne {
+    
+    background-color:aqua ;
+}
+
+#childTwo {
+    background-color: green;
+}
+
+#childThree {
+    background-color: blue;
+}
+
+#childFour {
+    background-color: yellow;
+    /*align-self: flex-end;*/
+}
+
+#childFive {
+    background-color: brown;
+    flex-grow: 3;
+}
+
+#childSix {
+    background-color: pink;
+}
